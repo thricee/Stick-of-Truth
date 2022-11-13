@@ -5,7 +5,7 @@ registry = "test"
 [[package]]
 name = "daniel-s/stick-of-truth"
 version = "0.1.0"
-dependencies = [["knit", "sleitnick/knit@1.4.7"]]
+dependencies = [["Knit", "sleitnick/knit@1.4.7"]]
 
 [[package]]
 name = "evaera/promise"
