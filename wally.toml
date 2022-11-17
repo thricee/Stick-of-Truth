@@ -6,3 +6,7 @@ realm = "shared"
 
 [dependencies]
 Knit = 'sleitnick/knit@1.4.7'
+Shaker = 'sleitnick/shake@0.1.7'
+Timer = 'sleitnick/timer@1.1.2'
+Spring = 'brittonfischer/spring@0.1.0'
+Roact = 'roblox/roact@1.4.4'

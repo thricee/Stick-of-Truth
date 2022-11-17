@@ -3,13 +3,23 @@
 registry = "test"
 
 [[package]]
+name = "brittonfischer/spring"
+version = "0.1.0"
+dependencies = []
+
+[[package]]
 name = "daniel-s/stick-of-truth"
 version = "0.1.0"
-dependencies = [["Knit", "sleitnick/knit@1.4.7"]]
+dependencies = [["Knit", "sleitnick/knit@1.4.7"], ["Roact", "roblox/roact@1.4.4"], ["Shaker", "sleitnick/shake@0.1.7"], ["Spring", "brittonfischer/spring@0.1.0"], ["Timer", "sleitnick/timer@1.1.2"]]
 
 [[package]]
 name = "evaera/promise"
 version = "4.0.0"
+dependencies = []
+
+[[package]]
+name = "roblox/roact"
+version = "1.4.4"
 dependencies = []
 
 [[package]]
@@ -28,6 +38,21 @@ version = "1.0.4"
 dependencies = []
 
 [[package]]
+name = "sleitnick/shake"
+version = "0.1.7"
+dependencies = [["Trove", "sleitnick/trove@0.4.2"]]
+
+[[package]]
 name = "sleitnick/signal"
 version = "1.2.1"
+dependencies = []
+
+[[package]]
+name = "sleitnick/timer"
+version = "1.1.2"
+dependencies = [["Signal", "sleitnick/signal@1.2.1"]]
+
+[[package]]
+name = "sleitnick/trove"
+version = "0.4.2"
 dependencies = []
